@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dario Ramirez - Nuclear Physicist">
+    <meta name="keywords" content="Dario Ramirez, Nuclear Physics, CBM, GSI, STS, FAIR, Physics Resume">
+    <meta name="author" content="Dario Ramirez">
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://googol23.github.io/dramirez/index.html">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+
+    <title>Dario Ramirez | Nuclear Physicist | Data Analyst | Software Developer</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="render()">
+    <div id="target">Loading...</div>
+
+    <script id="template" type="x-tmpl-mustache">
+        <header style="margin-bottom:0; padding-bottom:0;">
+            {{#profile}}
+            <div class="profile">
+                <img src="images/profile_image.jpeg" alt="Profile Image">
+                <div>
+                    <h1>{{name}}</h1>
+                    <p> Email: {{email}} </p>
+                    <p> Bron: {{birth}} </p>
+                    <ul>
+                        {{#affiliations}}
+                            <li> {{name}}, {{location}} </li>
+                        {{/affiliations}}
+                    </ul>
+                </div>
+            </div>
+            {{/profile}}
+        </header>
+
+        <main style="margin-top:0; padding-top:0;">
+            <section>
+                <h2>Professional Experience</h2>
+                <ul>
+                    {{#professional_experience}}
+                    <li style="margin-bottom: 0.5em;">
+                        <span style="display: inline-block; width: 12em;"> ({{date_start}} - {{date_end}}) </span> {{role}} | {{department}} | {{institution}}
+                        <details>
+                            <summary>Show more</summary>
+                            <p> {{details}} </p>
+                        </details>
+                    </li>
+                    {{/professional_experience}}
+                </ul>
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                <ul>
+                    {{#education}}
+                        <li style="margin-bottom: 0.5em;">
+                            <span style="display: inline-block; width: 12em;"> ({{date_start}} - {{date_end}}) </span> {{degree}} | {{institution}}
+                            <details>
+                            <summary>Show more</summary>
+                            <ul>
+                                {{#details}}
+                                <li>Thesis: {{thesis}} </li>
+                                <li>Supervisor: {{supervisor}}</li>
+                                {{/details}}
+                            </ul>
+                            </details>
+                        </li>
+                    {{/education}}
+                </ul>
+
+                <h3> Summer Schools & Internships</h3>
+                <ul>
+                    {{#summer_schools_internships}}
+                        <li style="margin-bottom: 0.5em;">
+                            <span style="display: inline-block; width: 12em;"> ({{date_start}} - {{date_end}}) </span> {{program}} | {{location}}
+                            <details>
+                            <summary>Show more</summary>
+                            <ul>
+                                {{#details}}
+                                {{#work_report}}
+                                    <li>Work report: {{.}} </li>
+                                {{/work_report}}
+                                <li>Supervisor: {{supervisor}}</li>
+                                {{/details}}
+                            </ul>
+                            </details>
+                        </li>
+                    {{/summer_schools_internships}}
+                </ul>
+            </section>
+
+            <section>
+            <h2>Conference Participation</h2>
+            {{#conference_participation}}
+                <ul>
+                    {{#recent}}
+                    <li style="margin-bottom: 0.5em;">
+                        {{name}}. {{date}}, {{location}}.
+                        <p style="margin: 0 0 0 1em;">
+                            Contribution:
+                            {{#url}}
+                                <a href="{{.}}">{{contribution}}</a>
+                            {{/url}}
+                            {{^url}}
+                                {{contribution}}
+                            {{/url}}
+                        </p>
+                    </li>
+                    {{/recent}}
+                </ul>
+                <details>
+                    <summary>Show more</summary>
+                    <ul>
+                        {{#additional}}
+                        <li style="margin-bottom: 0.5em;">
+                            {{name}}. {{date}}, {{location}}.
+                            <p style="margin: 0 0 0 1em;">
+                                Contribution:
+                                {{#url}}
+                                    <a href="{{.}}">{{contribution}}</a>
+                                {{/url}}
+                                {{^url}}
+                                    {{contribution}}
+                                {{/url}}
+                            </p>
+                        </li>
+                        {{/additional}}
+                    </ul>
+                </details>
+            {{/conference_participation}}
+            </section>
+
+            <section>
+            {{#publications}}
+                <h2>Publications</h2>
+                <h3>Conference Proceedings</h3>
+                <ul>
+                    {{#conference_proceedings}}
+                    <li>
+                        {{title}}, {{authors}}, {{conference}}, {{date}}, {{location}}.
+                        {{#doi}}
+                            <a href="{{.}}">{{.}}</a>
+                        {{/doi}}
+                        {{#details}}
+                            <details>
+                            <summary>details</summary>
+                                <p style="margin: 0 0 0 1em;"> {{.}} </p>
+                            </details>
+                        {{/details}}
+
+                    </li>
+                    {{/conference_proceedings}}
+                </ul>
+
+                <h3>Journal</h3>
+                <ul>
+                    {{#journal}}
+                    <li>
+                        {{authors}}, {{title}}, {{journal}} {{year}}.
+                        {{#doi}}
+                            <a href="{{.}}">{{.}}</a>
+                        {{/doi}}
+                    </li>
+                    {{/journal}}
+                </ul>
+
+                <h3>Technical reports</h3>
+                <ul>
+                    {{#technical_reports}}
+                    <li>
+                        {{authors}}, {{title}}, {{journal}} {{year}}.
+                        {{#doi}}
+                            <a href="{{.}}">{{.}}</a>
+                        {{/doi}}
+                    </li>
+                    {{/technical_reports}}
+                </ul>
+            {{/publications}}
+            </section>
+
+            <section>
+            <h2>Skills Summary</h2>
+            <ul>
+            {{#skills_summary}}
+                <li>Languages: {{languages}} </li>
+                <li>Programing: {{programming}} </li>
+                <li>Additional tools: {{additional_tools}} </li>
+                <li>Soft skills:
+                    <ul>
+                    {{#soft_skills}}
+                    <li>
+                        {{.}}
+                    </li>
+                    {{/soft_skills}}
+                </ul>
+                </li>
+            </ul>
+            {{/skills_summary}}
+        </section>
+
+            <section>
+            <h2>Awards</h2>
+            <ul>
+                {{#awards}}
+                    <li> {{awards}} </li>
+                {{/awards}}
+            </ul>
+            </section>
+        </main>
+    </script>
+
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <script src="render.js"></script>
+</body>
+
+</html>

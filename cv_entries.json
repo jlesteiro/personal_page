@@ -1,0 +1,307 @@
+{
+  "profile": {
+    "name": "Dario Alberto Ramirez Zaldivar",
+    "affiliations":[
+      {"name" : "Goethe University Frankfurt", "location" : "Darmstadt, Germany"},
+      {"name" : "GSI Helmholtzzentrum", "location" : "Frankfurt, Germany"}
+    ],
+    "email": ["d.ramirez@gsi.de", "googol23nphy@gmail.com"],
+    "birth": "May 4, 1994, Holguin, Cuba"
+  },
+
+  "education": [
+    {
+      "degree": "Ph.D. student",
+      "institution": "Goethe University Frankfurt",
+      "date_start": "May 2021",
+      "date_end": "Present",
+      "details": {
+        "thesis": "Performance evaluation of the prototype CBM Silicon Tracking System: Results from operation in the mCBM at the SIS18 demonstrator experiment",
+        "supervisor": "Prof. Dr. Alberica Toia"
+      }
+    },
+    {
+      "degree": "Diploma in Nuclear Physics",
+      "institution": "Instituto Superior de Tecnologías y Ciencias Aplicadas (InSTEC), Havana, Cuba",
+      "date_start": "Sep 2013",
+      "date_end": "Jul 2018",
+      "details": {
+        "thesis": "Quarkonia dynamic in nuclear media",
+        "supervisor": "Prof. Dr. Fernando Guzmán Martínez"
+      }
+    }
+  ],
+  "summer_schools_internships": [
+    {
+      "program": "JINR Summer School",
+      "location": "Dubna, Rusia",
+      "date_start": "Jul 2019",
+      "date_end": "Sep 2019",
+      "details": {
+        "work_report": "χc1 and χc2 reconstruction from pp collision at √sNN=26 GeV at SPD.",
+        "supervisor": "Dr. Alexey Guskov"
+      }
+    },
+    {
+      "program": "DESY Summer School",
+      "location": "Hamburg",
+      "date_start": "Jun 2018",
+      "date_end": "Aug 2018",
+      "details": {
+        "work_report": "Study of Drell-Yan Z-boson production in pPb collision at √SNN=5.02 TeV.",
+        "supervisor": "Doc. Dr. Hannes Jung"
+      }
+    },
+    {
+      "program": "JINR Internship",
+      "location": "Dubnam, Rusia",
+      "date_start": "Mar 2018",
+      "date_end": "May 2018",
+      "details": {
+        "work_topic": "Training on Monte Carlo simulation data analysis.",
+        "supervisor": "Dr. Alexey Guskov"
+      }
+    }
+  ],
+  "professional_experience": [
+    {
+      "role": "Ph.D. researcher",
+      "institution": "GSI",
+      "department": "STS – CBM experiment",
+      "date_start": "2021",
+      "date_end": "Present",
+      "details": "Work summary"
+    },
+    {
+      "role": "Junior Researcher",
+      "institution": "InSTEC",
+      "department": "Theoretical nuclear physics department",
+      "date_start": "2018",
+      "date_end": "2021",
+      "details": "Assistant professor on Quantum Mechanics and Thermodynamics and Statistical Physics lectures"
+    }
+  ],
+  "conference_participation": [
+    {
+      "name": "XXXI International Conference on Ultrarelativistic nucleus-nucleus collisions (Quark-Matter)",
+      "date": "April 2025",
+      "location": "Frankfurt am Main, Germany",
+      "contribution": "Performance of hit, track, and vertex reconstruction of the Silicon Tracking System of the CBM experiment at mCBM@SIS18.",
+      "url" : "https://indico.gsi.de/event/19975/contributions/86807/attachments/50545/74161/2025_02_19_CBM_CM_RAMIREZ.pptx"
+    },
+    {
+      "name": "45th CBM Collaboration Meeting",
+      "date": "February 2025",
+      "location": "Germany",
+      "contribution": "Tracking and vertexing performance of the STS (Highlight talk).",
+      "url" : ""
+    },
+    {
+      "name": "DPG Annual spring meeting",
+      "date": "March 2024",
+      "location": "Germany",
+      "contribution": "Current status in the concept design, assembly, and performance evaluation of the Silicon Tracking System for the CBM experiment (Group Report).",
+      "url" : ""
+    },
+    {
+      "name": "32nd International Workshop on Vertex Detectors",
+      "date": "October 2023",
+      "location": "Sestri Levante, Italy",
+      "contribution": "Vertex reconstruction and tracking performance of the STS detector with the mCBM setup at SIS18.",
+      "url" : ""
+    },
+    {
+      "name": "39th CBM Collaboration Meeting",
+      "date": "May 2022",
+      "location": "Germany",
+      "contribution": "mSTS performance analysis (Highlight talk).",
+      "url" : ""
+    },
+    {
+      "name": "DPG Annual spring meeting",
+      "date": "March 2025",
+      "location": "Germany",
+      "contribution": "Performance of hit, track, and vertex reconstruction of the Silicon Tracking System of the CBM experiment.",
+      "url" : ""
+    },
+    {
+      "name": "XIX Workshop on Nuclear Physics (WONP)",
+      "date": "October 2024",
+      "location": "La Habana, Cuba",
+      "contribution": "Performance of hit, track, and vertex reconstruction of the Silicon Tracking System of the CBM experiment.",
+      "url" : ""
+    },
+    {
+      "name": "44th CBM Collaboration Meeting",
+      "date": "September 2024",
+      "location": "Germany",
+      "contribution": "Track and event vertex reconstruction in mCBM.",
+      "url" : ""
+    },
+    {
+      "name": "43rd CBM Collaboration Meeting",
+      "date": "March 2024",
+      "location": "Germany",
+      "contribution": "Event vertex using CA track reconstruction.",
+      "url" : ""
+    },
+    {
+      "name": "42nd CBM Collaboration Meeting",
+      "date": "September 2023",
+      "location": "Germany",
+      "contribution": "Performance studies with STS.",
+      "url" : ""
+    },
+    {
+      "name": "41st CBM Collaboration Meeting",
+      "date": "March 2023",
+      "location": "Germany",
+      "contribution": "Performance of the mSTS detector in O+Ni collisions at 2 AGeV with the mCBM setup at SIS18.",
+      "url" : ""
+    },
+    {
+      "name": "DPG Annual spring meeting",
+      "date": "March 2023",
+      "location": "Germany",
+      "contribution": "Performance on the STS detector in Ni+Ni collisions at 1.93 AGeV with the mCBM setup at SIS18.",
+      "url" : ""
+    },
+    {
+      "name": "40th CBM Collaboration Meeting",
+      "date": "October 2022",
+      "location": "Germany",
+      "contribution": "",
+      "url" : ""
+    },
+    {
+      "name": "FAIR next generation scientists - 8th Edition Workshop (FAIRness2022)",
+      "date": "May 2022",
+      "location": "Sestri Levante, Italy",
+      "contribution": "Performance of the mSTS detector in O+Ni collisions at 2 AGeV with the mCBM setup at SIS18.",
+      "url" : ""
+    },
+    {
+      "name": "XXIX International Conference on Ultra-relativistic Nucleus-Nucleus Collisions (Quark Matter 2022)",
+      "date": "April 2022",
+      "location": "Krakow, Poland",
+      "contribution": "Performance of the mSTS detector in O+Ni collisions at 2 AGeV with the mCBM setup at SIS18.",
+      "url" : ""
+    },
+    {
+      "name": "DPG Annual spring meeting",
+      "date": "March 2022",
+      "location": "Germany",
+      "contribution": "Performance of the mSTS detector in O+Ni collisions at 2 AGeV with the mCBM setup at SIS18.",
+      "url" : ""
+    },
+    {
+      "name": "38th CBM Collaboration Meeting",
+      "date": "September 2021",
+      "location": "Germany",
+      "contribution": "Performance of the mSTS detector in O+Ni collisions at 2 AGeV with the mCBM setup at SIS18.",
+      "url" : ""
+    },
+    {
+      "name": "II Cuban Encounter of Physics for post-graduated students",
+      "date": "2020",
+      "location": "",
+      "contribution": "Boson Star based on coupled neutrinos.",
+      "url" : ""
+    },
+    {
+      "name": "STAR-SMFNS 2019",
+      "date": "2019",
+      "location": "La Habana-Varadero, Cuba",
+      "contribution": "Study of Z-boson production in di-lepton channel on pPb collisions at √SNN=5.02 TeV.",
+      "url" : ""
+    },
+    {
+      "name": "CERN Latin-American School of High-Energy Physics",
+      "date": "2019",
+      "location": "Córdoba, Argentina",
+      "contribution": "Study of Z-boson production in di-lepton channel on pPb collisions at √SNN=5.02 TeV.",
+      "url" : ""
+    },
+    {
+      "name": "XIV ICFA School on Instrumentation in Elementary Particle Physics",
+      "date": "2017",
+      "location": "Habana, Cuba",
+      "contribution": "",
+      "url" : ""
+    }
+  ],
+  "publications": {
+    "conference_proceedings": [
+      {
+        "title": "Performance of hit, track, and vertex reconstruction of the Silicon Tracking System of the CBM experiment",
+        "authors": "Ramirez, D.",
+        "conference": "FAIR next generation scientists - 8th Edition Workshop (FAIRness2024)",
+        "location": "Seget, Croatia",
+        "date": "Sept 23-27, 2024",
+        "details": " (On Editorial phase)"
+      },
+      {
+        "title": "Vertex reconstruction and tracking performance of the STS detector with the mCBM setup at SIS18",
+        "authors": "Ramirez, D.",
+        "conference": "The 32nd International Workshop on Vertex Detectors (VERTEX2023)",
+        "location": "Sestri Levante",
+        "date": "Oct 16–20, 2023",
+        "doi": "https://doi.org/10.22323/1.448.0064"
+      },
+      {
+        "title": "Performance of the mSTS detector in O+Ni collisions at 2 AGeV with the mCBM setup at SIS18",
+        "authors": "Ramirez, D.",
+        "conference": "FAIR next generation scientists - 7th Edition Workshop (FAIRness2022)",
+        "location": "Paralia (Pieria, Greece)",
+        "date": "May 23 - 27, 2022",
+        "doi": "https://doi.org/10.22323/1.419.0050"
+      }
+    ],
+    "journal": [
+      {
+        "title": "Study of Z-boson production in di-lepton channel on pPb collisions at √SNN = 5.02 TeV",
+        "authors": "Ramirez D, Rodriguez D, Jung H, Guzman F.",
+        "journal": "Astron. Nachr.",
+        "year" : "2019",
+        "vol" : "340",
+        "pages" :"872–877",
+        "doi": "https://doi.org/10.1002/asna.201913714"
+      }
+    ],
+    "technical_reports": [
+      {
+        "title": "Beam spot and vertex reconstruction with mSTS in Ni+Ni collisions at 1.93 AGeV",
+        "authors": "Ramirez, D. and Toia, A.",
+        "journal": "CBM Progress Report",
+        "year" : "2023",
+        "doi": "https://doi.org/10.15120/GSI-2024-00765"
+      },
+      {
+        "title": "Performance of mSTS in Ni+Ni collisions at 1.93 AGeV",
+        "authors": "Ramirez, D. and Toia, A.",
+        "journal": "CBM Progress Report",
+        "year" : "2022",
+        "doi": "https://doi.org/10.15120/GSI-2023-00384"
+      },
+      {
+        "title": "Performance of the mSTS detector during the mCBM beam campaign 2021",
+        "authors": "Ramirez, D. and Toia, A.",
+        "journal": "CBM Progress Report",
+        "year" : "2021",
+        "doi": "https://doi.org/10.15120/GSI-2022-00599"
+      }
+    ]
+  },
+  "skills_summary": {
+    "languages": ["Spanish (native)", "English (advanced)"],
+    "programming": ["C++ (advanced)", "Python (advanced)", "SQL (intermediate)"],
+    "additional_tools": ["Git", "ROOT", "Geant4", "Origin"],
+    "soft_skills": [
+      "Communication: \"Soft Skills Training course: Making an Impact as an Effective Researcher\"",
+      "Leadership: \"Soft Skills Training course: Leading Teams in a Research Environment\""
+    ]
+  },
+  "awards": [
+    "Giersch Excellence Award 2022"
+  ]
+}

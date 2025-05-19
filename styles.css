@@ -1,0 +1,147 @@
+html {
+  font-size: 100%; /* base = 16px, easily scalable */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px; /* Give space for fixed top bar */
+  background: #1f1d1d;
+  color: #ffffff;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #b9d2e2;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: normal;
+  margin: 0.5em 0;
+
+  position: sticky;
+  top: 0;
+  background: #1f1d1d; /* same as page background */
+  padding-left: 1em;  /* use padding, not margin */
+  margin-left: 0;     /* remove left margin */
+  z-index: 10;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0.67rem 1rem 0.67rem;
+}
+
+h4 { font-size: 1.25rem; }
+
+a {
+  color: #ffffff;        /* force black color */
+  text-decoration: none;
+  font-weight: bold;   /* optional: make link text bold */
+}
+
+a:hover {
+  color: darkred;      /* color on mouse hover */
+  text-decoration: underline; /* underline on hover */
+}
+
+div {
+  font-size: 1.2rem;
+}
+
+header, main {
+  max-width: 56.25rem; /* 900px */
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #1f1d1d;
+  border-radius: 0.625rem; /* 10px */
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.profile img {
+  width: 7.5rem; /* 120px */
+  border-radius: 75%;
+  flex-shrink: 0;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: normal;
+  /* text-decoration: underline; */
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 1.25rem; /* 20px */
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 600px) {
+  html {
+    font-size: 90%; /* shrink base font slightly */
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile img {
+    width: 6rem;
+  }
+
+  header, main {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+}
+
+/* Fixed top bar */
+#top-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  background-color: #1f1d1d;
+  display: flex;
+  justify-content: flex-end;  /* Align buttons to the right */
+  align-items: center;        /* Vertically center buttons */
+  padding: 0 1em;
+  z-index: 1000;
+  border-bottom: 1px solid #333;
+}
+
+/* Buttons inside top bar */
+#top-bar button {
+  color: #b9d2e2;            /* Font color */
+  background-color: #323c42;
+  border: none;
+  margin-left: 0.5em;
+  padding: 0.4em 0.8em;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#top-bar button:hover {
+  background-color: #005fa3;
+}
